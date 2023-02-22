@@ -6,7 +6,10 @@ const Schema = mongoose.Schema
 const chapterSchema = new Schema (
     {
         title: { type: String, required: true },
-        image: [imageSchema]
+        image: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Image"
+        }
     }
 )
 
