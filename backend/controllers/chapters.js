@@ -36,7 +36,8 @@ router.get("/show/:id", (req, res) => {
 // DELETE ROUTE: THIS ROUTE ALLOWS US TO DELETE AN INDIVIDUAL CHAPTER DOCUMENT USING THE URL PARAMETER (WHICH WILL ALWAYS BE THE CHAPTER DOCUMENT'S ID). //
 router.delete("/:id", (req, res) => {
     db.Chapter.findByIdAndDelete(req.params.id, (err, chapter) => {
-        res.redirect("/")
+        res.send(chapter)
+        // res.redirect("/")
     })
 })
 
