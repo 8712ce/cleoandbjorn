@@ -17,17 +17,19 @@ router.get("/new", (req, res) => {
 // CREATE (POST) ROUTE: THIS ROUTE RECEIVES THE POST REQUEST SENT FROM THE NEW ROUTE ABOVE, PARSES IT INTO A CHAPTER OBJECT, CREATES THE CHAPTER OBJECT AS A DOCUMENT IN THE CHAPTERS COLLECTION, AND REDIRECTS TEH USER BACK TO THE ROOT/HOME PAGE. //
 router.post("/", (req, res) => {
     db.Chapter.create(req.body, (err, chapter) => {
-        res.redirect("/chapters/show/" + chapter._id)
+        res.send(chapter)
+        // res.redirect("/chapters/show/" + chapter._id)
     })
 })
 
 // SHOW (GET/READ) ROUTE: THIS ROUTE WILL SHOW AN INDIVIDUAL CHAPTER DOCUMENT USING THE URL PARAMETER (WHICH WILL ALWAYS BE THE CHAPTER DOCUMENT'S ID). //
 router.get("/show/:id", (req, res) => {
     db.Chapter.findById(req.params.id, (err, chapter) => {
-        res.render("showChapter", {
-            chapter: chapter,
-            tabTitle: "Chapter: " + chapter.title
-        })
+        res.send(chapter)
+        // res.render("showChapter", {
+        //     chapter: chapter,
+        //     tabTitle: "Chapter: " + chapter.title
+        // })
     })
 })
 
