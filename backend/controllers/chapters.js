@@ -54,7 +54,8 @@ router.get("/:id/edit", (req, res) => {
 // UPDATE (PUT) ROUTE: THIS ROUTE RECEIVES THE PUT REQUEST SENT FROM THE EDIT ROUTE ABOVE, PARSES IT INTO A CHAPTER OBJECT, EDITS THE SPECIFIED CHAPTER OBJECT AS A DOCUMENT IN THE CHAPTERS COLLECTION, AND REDIRECTS THE USER BACK TO THE SHOW PAGE FOR THE UPDATED CHAPTER. //
 router.put("/:id", (req, res) => {
     db.Chapter.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err,chapter) => {
-        res.redirect("/chapters/show/" + chapter._id)
+        res.send(chapter)
+        // res.redirect("/chapters/show/" + chapter._id)
     })
 })
 
