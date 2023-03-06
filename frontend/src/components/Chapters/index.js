@@ -6,19 +6,13 @@ import React from "react";
 
 
 // STYLES //
-import "./about.css";
+import "./chapters.css";
 
-export default function About() {
+export default function Chapters() {
     return (
-        <div id="about">
+        <div id="chapters">
 
-            <h1>About</h1>
-
-            <p>MEDIUM | Graphic Novel</p>
-
-            <p>GENRE | Dark Fantasy, Illustrated Dreampop, Science Fiction, Whimsycore</p>
-
-            <p>AGE LEVEL | 17+</p>
+            <h1>Chapters</h1>
 
             <p>The year is 2096.  In a remote desert, bankrupt Victoria and her army of obsolete androids are preparing to hunt the child who she holds responsible for her deplorable station in life.  Thankfully, Cleo, the introverted 10-year-old, and her naïve, kid brother, Bjørn, have inherited telekinetic abilities through generations of genetic engineering.  Life is cozy in their northern utopia until Cleo begins having an indescribable premonition.</p>
 
