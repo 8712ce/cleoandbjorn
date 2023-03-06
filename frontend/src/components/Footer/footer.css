@@ -1,6 +1,10 @@
+#footer {
+    display: flex;
+    justify-content: right;
+    margin-top: 3em;
+}
+
 .copilots {
-    position: relative;
-    bottom: 0px;
-    right: 0px;
-    width: 75%;
+    width: 70%;
+    /* float: right; */
 }

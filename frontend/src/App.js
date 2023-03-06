@@ -4,6 +4,7 @@ import React from 'react';
 
 // COMPONENTS //
 import Header from "./components/Header";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 // STYLES //
@@ -13,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <Header />
+
+      <About />
 
       <Footer />
     </div>
