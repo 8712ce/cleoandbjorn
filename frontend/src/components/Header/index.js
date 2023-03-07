@@ -15,6 +15,8 @@ export default function Header() {
             <img className="overlay" src={logo} alt="Cleo and Bjorn Logo" />
 
             <p>The year was 2096...</p>
+            <p>On page load, make title fade from 0 to 1 over a second or two!</p>
+            <p>Use lightning bolt or a nuclear fusion icon as the icon for section!!!</p>
 
 
         </div>

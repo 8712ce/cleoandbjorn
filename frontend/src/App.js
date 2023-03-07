@@ -1,6 +1,10 @@
 // DEPENDENCIES //
-import { Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import React from 'react';
+
+// PAGES //
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutPage";
 
 // COMPONENTS //
 import Header from "./components/Header";
@@ -15,15 +19,23 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Routes>
 
-      <About />
+        <Route path="/" element={<Home />} />
 
-      <Chapters />
+        <Route path="/header" element={<Header />} />
 
-      <Yawn />
+        <Route path="/about" element={<About />} />
 
-      <Footer />
+        <Route path="/chapters" element={<Chapters />} />
+
+        <Route path="/aboutPage" element={<AboutPage />} />
+
+        <Route path="/yawn" element={<Yawn />} />
+
+        <Route path="/footer" element={<Footer />} />
+
+      </Routes>
     </div>
   );
 }
