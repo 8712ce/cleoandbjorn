@@ -6,6 +6,7 @@ import React from 'react';
 import Header from "./components/Header";
 import About from "./components/About";
 import Chapters from "./components/Chapters";
+import Yawn from "./components/Yawn";
 import Footer from "./components/Footer";
 
 // STYLES //
@@ -19,6 +20,8 @@ function App() {
       <About />
 
       <Chapters />
+
+      <Yawn />
 
       <Footer />
     </div>

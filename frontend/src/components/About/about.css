@@ -10,3 +10,7 @@ h1 {
     text-align: center;
     color: #784311;
 }
+
+.textBody {
+    text-align: justify;
+}

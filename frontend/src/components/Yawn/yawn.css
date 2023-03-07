@@ -1,0 +1,16 @@
+#yawn {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 3em;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    color: #784311;
+}
+
+.copyright {
+    text-align: center;
+    color: #784311;
+}
