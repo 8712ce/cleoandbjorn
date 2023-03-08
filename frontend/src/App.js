@@ -5,6 +5,8 @@ import React from 'react';
 // PAGES //
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
+import ChaptersPage from './pages/ChaptersPage';
+import NewChapter from './pages/NewChapter';
 
 // COMPONENTS //
 import Header from "./components/Header";
@@ -30,6 +32,10 @@ function App() {
         <Route path="/chapters" element={<Chapters />} />
 
         <Route path="/aboutPage" element={<AboutPage />} />
+
+        <Route path="/chaptersPage" element={<ChaptersPage />} />
+
+        <Route path="/newChapter" element={<NewChapter />} />
 
         <Route path="/yawn" element={<Yawn />} />
 

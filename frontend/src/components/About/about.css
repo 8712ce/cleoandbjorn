@@ -1,10 +1,9 @@
 #about {
     background-color: white;
     border-radius: 5px;
-    margin: 3em;
+    margin: 3em 3em 5em 3em;
     padding: 1em 0em 2em 0em;
     text-align: center;
-    position: relative;
 }
 
 h1 {
@@ -29,11 +28,11 @@ h1 {
 }
 
 .card_link:hover {
-    color: #ff9a73;
+    color: #ff8c52;
 }
 
 .fusion {
-    width: 60px;
+    width: 50px;
     background-color: transparent;
-    margin-top: -50px;
+    margin-top: -40px;
 }

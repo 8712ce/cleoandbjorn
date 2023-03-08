@@ -1,8 +1,9 @@
 #chapters {
     background-color: white;
     border-radius: 5px;
-    margin: 3em;
+    margin: 3em 3em 5em 3em;
     padding: 1em 0em 2em 0em;
+    text-align: center;
 }
 
 h1 {
@@ -17,3 +18,17 @@ h1 {
     color: #6f2a04;
     margin: 1.5em 3em;
 }
+
+.center {
+    text-align: center;
+}
+
+.light {
+    color: #c7afa2
+}
+
+/* .fusion {
+    width: 50px;
+    background-color: transparent;
+    margin-top: -40px;
+} */
