@@ -1,8 +1,9 @@
 #about {
     background-color: white;
     border-radius: 5px;
-    margin: 2em;
-    padding: 2em;
+    margin: 3em;
+    padding: 1em 0em 2em 0em;
+    text-align: center;
 }
 
 h1 {
@@ -11,6 +12,28 @@ h1 {
     color: #784311;
 }
 
-.textBody {
+.comp_about_text {
     text-align: justify;
+    line-height: 150%;
+    color: #6f2a04;
+    margin: 1.5em 3em;
+}
+
+.card_link {
+    color: #d46437;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.card_link:hover {
+    color: #ff9a73;
+}
+
+.fusion {
+    width: 8%;
+    background-color: transparent;
+    position: relative;
+    top: -50px;
 }

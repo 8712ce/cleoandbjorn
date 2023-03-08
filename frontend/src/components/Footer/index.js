@@ -12,8 +12,9 @@ export default function Footer() {
     return (
         <div id="footer">
 
-            <img className="copilots" src={copilots} alt="Illustration of two robots, one of which in the form of a rabbit." />
+            <p className="copyright">©2023 8712CE</p>
 
+            <img className="copilots" src={copilots} alt="Illustration of two robots, one of which in the form of a rabbit." />
 
         </div>
     )

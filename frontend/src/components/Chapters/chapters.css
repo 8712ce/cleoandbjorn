@@ -1,16 +1,19 @@
 #chapters {
     background-color: white;
     border-radius: 5px;
-    margin: 2em;
-    padding: 2em;
+    margin: 3em;
+    padding: 1em 0em 2em 0em;
 }
 
 h1 {
     background-color: transparent;
     text-align: center;
-    color: #784311;
+    color: #843409;
 }
 
-.textBody {
+.comp_chapter_text {
     text-align: justify;
+    line-height: 150%;
+    color: #6f2a04;
+    margin: 1.5em 3em;
 }

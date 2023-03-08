@@ -17,10 +17,6 @@ export default function Yawn() {
                 <Link>Privacy Policy</Link>
             </div>
 
-            <div className="copyright">
-                <p>©2023 8712CE</p>
-            </div>
-
         </div>
     )
 }

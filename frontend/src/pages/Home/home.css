@@ -1,0 +1,11 @@
+.body_text {
+    color: #6f2a04;
+    margin: 0em 3em;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.credit {
+    text-align: right;
+    font-style: italic;
+}
