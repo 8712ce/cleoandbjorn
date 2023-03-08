@@ -4,6 +4,7 @@
     margin: 3em;
     padding: 1em 0em 2em 0em;
     text-align: center;
+    position: relative;
 }
 
 h1 {
@@ -32,8 +33,7 @@ h1 {
 }
 
 .fusion {
-    width: 8%;
+    width: 60px;
     background-color: transparent;
-    position: relative;
-    top: -50px;
+    margin-top: -50px;
 }
