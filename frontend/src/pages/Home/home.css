@@ -5,6 +5,15 @@
     line-height: 150%;
 }
 
+.important_text {
+    color: #6f2a04;
+    margin: 0em 3em;
+    text-align: justify;
+    line-height: 150%;
+    font-size: 24px;
+    font-style: italic;
+}
+
 .credit {
     text-align: right;
     font-style: italic;

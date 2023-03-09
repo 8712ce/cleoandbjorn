@@ -1,12 +1,14 @@
 // DEPENDENCIES //
-import { Routes, Route } from 'react-router-dom';
-import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
+import React from "react";
+import axios from "axios";
 
 // PAGES //
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
-import ChaptersPage from './pages/ChaptersPage';
-import NewChapter from './pages/NewChapter';
+import ChaptersPage from "./pages/ChaptersPage";
+import NewChapter from "./pages/NewChapter";
 
 // COMPONENTS //
 import Header from "./components/Header";
@@ -19,6 +21,11 @@ import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
+
+  // STATE //
+  const [chapters, setChapters] = useState()
+
+
   return (
     <div className="App">
       <Routes>

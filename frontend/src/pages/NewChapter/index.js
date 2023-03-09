@@ -2,7 +2,7 @@
 import { createChapter } from "../../utils/api";
 // import axios from "axios";
 import React, { useState } from "react"
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 // import { ReactDOM } from "react";
 // import ReactDOM from 'react-dom/client';
 
@@ -62,7 +62,7 @@ export default function NewChapter({setChapter}) {
 
                         <label>Thumbnail Image:</label>
                         <input
-                            type="text"
+                            type="file"
                             id="thumbnail"
                             name="thumbnail"
                             placeholder="Thumbnail Image"
@@ -74,7 +74,8 @@ export default function NewChapter({setChapter}) {
 
                         <label>Chapter Images:</label>
                         <input
-                            type="text"
+                            type="file"
+                            multiple
                             id="images"
                             name="images"
                             placeholder="Chapter Images"
@@ -86,6 +87,9 @@ export default function NewChapter({setChapter}) {
 
                 </form>
             </div>
+
+            <Link className="button" to="/">Home</Link>
+
         </div>
 
     )
