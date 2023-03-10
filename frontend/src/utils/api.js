@@ -43,3 +43,14 @@ export async function deleteChapter(id) {
     const deleteData = await axios.delete(`chapters/${id}`)
     return console.log("Chapter Deleted")
 };
+
+// EMAIL SUBMIT //
+// export async function emailSubmit(formState) {
+//     const { data } = await axios.post("/send-email", { name, email, message })
+//     .then(response => {
+//         console.log(response.data);
+//     })
+//     .catch(error => {
+//         console.error(error);
+//     });
+// };

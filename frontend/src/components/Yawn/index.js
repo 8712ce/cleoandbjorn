@@ -10,7 +10,6 @@ export default function Yawn() {
         <div id="yawn">
 
             <div className="links">
-                <Link>Contact</Link>
 
                 <Link>Credits</Link>
 

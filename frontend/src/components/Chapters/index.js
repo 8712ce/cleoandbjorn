@@ -21,7 +21,7 @@ export default function Chapters() {
 
             <p className="comp_chapter_text light center">Sensitive Content Warning: This story contains depictions of human cruelty.</p>
 
-            <Link className="card_link" to="/chaptersPage">I Am 17 Years or Older</Link>
+            <Link className="card_link" to="/chaptersPage">I Am 17+ Years Old</Link>
 
         </div>
     )

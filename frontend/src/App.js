@@ -14,6 +14,7 @@ import NewChapter from "./pages/NewChapter";
 import Header from "./components/Header";
 import About from "./components/About";
 import Chapters from "./components/Chapters";
+import Connect from "./components/Connect";
 import Yawn from "./components/Yawn";
 import Footer from "./components/Footer";
 
@@ -37,6 +38,8 @@ function App() {
         <Route path="/about" element={<About />} />
 
         <Route path="/chapters" element={<Chapters />} />
+
+        <Route path="/connect" element={<Connect />} />
 
         <Route path="/aboutPage" element={<AboutPage />} />
 

@@ -1,0 +1,47 @@
+#connect {
+    background-color: white;
+    border-radius: 5px;
+    margin: 3em 3em 5em 3em;
+    padding: 1em 0em 2em 0em;
+    text-align: center;
+}
+
+h1 {
+    background-color: transparent;
+    text-align: center;
+    color: #784311;
+}
+
+.connect_text {
+    text-align: justify;
+    line-height: 150%;
+    color: #6f2a04;
+    margin: 1.5em 3em;
+}
+
+.center {
+    text-align: center;
+}
+
+.light {
+    color: #c7afa2
+}
+
+.social_media {
+    width: 50px;
+    margin: 0em 1em;
+}
+
+.social_media:hover {
+    transform: scale(1.05);
+}
+
+a {
+    background-color: transparent;
+}
+
+.fusion {
+    width: 50px;
+    background-color: transparent;
+    margin-top: -40px;
+}

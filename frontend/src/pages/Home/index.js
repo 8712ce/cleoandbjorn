@@ -1,11 +1,12 @@
 // DEPENDENCIES //
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // COMPONENTS //
 import Header from "../../components/Header";
 import About from "../../components/About";
 import Chapters from "../../components/Chapters";
+import Connect from "../../components/Connect";
 import Yawn from "../../components/Yawn";
 import Footer from "../../components/Footer";
 
@@ -16,6 +17,9 @@ import Footer from "../../components/Footer";
 import "./home.css";
 
 export default function Home() {
+
+    const [showComponent, setShowComponent] = useState(null);
+
     return (
         <div id="home">
             <Header />
@@ -30,6 +34,8 @@ export default function Home() {
             <About />
 
             <Chapters />
+
+            <Connect />
 
             <Yawn />
             
