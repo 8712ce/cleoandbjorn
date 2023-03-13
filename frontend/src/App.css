@@ -1,3 +1,38 @@
 * {
   background-color: #fcf8f5;
+  max-width: 1000px;
+  /* padding: 0.25em 0em 0em 0em; */
+  margin: 0;
+  /* margin: auto; */
+}
+
+#comp_card {
+  background-color: white;
+  border-radius: 5px;
+  margin: 3em 3em 5em 3em;
+  padding: 1em 5em 3em 5em;
+  text-align: center;
+}
+
+.page_title {
+  background-color: transparent;
+  text-align: center;
+  color: #784311;
+  margin-bottom: 1em;
+}
+
+.card_title {
+  background-color: transparent;
+  text-align: center;
+  color: #784311;
+  margin-bottom: 0.75em;
+}
+
+.button {
+  background-color: #d46437;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 50px;
 }

@@ -8,14 +8,13 @@ import axios from "axios";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import ChaptersPage from "./pages/ChaptersPage";
-import NewChapter from "./pages/NewChapter";
+// import NewChapter from "./pages/NewChapter";
 
 // COMPONENTS //
 import Header from "./components/Header";
 import About from "./components/About";
 import Chapters from "./components/Chapters";
 import Connect from "./components/Connect";
-import Yawn from "./components/Yawn";
 import Footer from "./components/Footer";
 
 // STYLES //
@@ -45,9 +44,7 @@ function App() {
 
         <Route path="/chaptersPage" element={<ChaptersPage />} />
 
-        <Route path="/newChapter" element={<NewChapter />} />
-
-        <Route path="/yawn" element={<Yawn />} />
+        {/* <Route path="/newChapter" element={<NewChapter />} /> */}
 
         <Route path="/footer" element={<Footer />} />
 

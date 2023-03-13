@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 // IMAGES //
 import cozy from "../../assets/c_b_cozy.jpg";
+import NewChapter from "../../components/NewChapter";
 
 // STYLES //
 import "./chaptersPage.css";
@@ -12,7 +13,7 @@ export default function ChaptersPage({ chapters, getChapter }) {
     return (
         <div id="chaptersPage">
 
-            <h1>Chapters</h1>
+            <h1 className="card_title">Chapters</h1>
 
             <div>
                 {chapters && chapters.map((chapter, i) => {
@@ -30,8 +31,9 @@ export default function ChaptersPage({ chapters, getChapter }) {
                 })}
             </div>
 
+            <NewChapter />
+
             <Link className="button" to="/">Home</Link>
-            <Link className="button" to="/newChapter">Post New Chapter</Link>
 
         </div>
     )

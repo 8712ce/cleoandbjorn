@@ -11,11 +11,11 @@ import "./about.css";
 
 export default function About() {
     return (
-        <div id="about">
+        <div id="comp_card">
 
             <img className="fusion" src={fusion} alt="nuclear fusion icon" />
 
-            <h1>About</h1>
+            <h1 className="card_title">About</h1>
 
             {/* <p className="comp_about_text">MEDIUM | Graphic Novel</p>
 

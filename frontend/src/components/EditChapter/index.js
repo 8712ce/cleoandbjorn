@@ -6,10 +6,13 @@ import { useNavigate, Link } from "react-router-dom";
 // import { ReactDOM } from "react";
 // import ReactDOM from 'react-dom/client';
 
-// STYLES //
-import "./newChapter.css"
+// IMAGES //
+import fusion from "../../assets/fusion_icon.png";
 
-export default function NewChapter({setChapter}) {
+// STYLES //
+import "./editChapter.css"
+
+export default function EditChapter({setChapter}) {
 
     // STATE //
     const [formState, setFormState] = useState({})
@@ -17,7 +20,7 @@ export default function NewChapter({setChapter}) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        createChapter(formState).then(data => {
+        editChapter(formState).then(data => {
             setChapter(data)
             navigate("/showChapter")
         });
@@ -28,15 +31,16 @@ export default function NewChapter({setChapter}) {
     };
 
     return (
-        <div className="body">
-            <div>
-                <h1 className="main_text">New Chapter</h1>
-            </div>
+        <div id="comp_card" className="nc">
 
-            <div id="offspring">
+            <img className="fusion" src={fusion} alt="nuclear fusion icon" />
+
+            <h1 className="card_title">Edit Chapter</h1>
+
+            <div>
                 <form onSubmit={handleSubmit} className="createForm">
 
-                        <label>Chapter Number:</label>
+                        <label className="nc_form">Chapter Number:</label>
                         <input
                             type="number"
                             id="chapter"
@@ -83,12 +87,10 @@ export default function NewChapter({setChapter}) {
                             value={formState.images || ""}
                             required />
 
-                    <button className="button" type="submit">Create Chapter</button>
+                    <button className="button" type="submit">Edit Chapter</button>
 
                 </form>
             </div>
-
-            <Link className="button" to="/">Home</Link>
 
         </div>
 

@@ -1,0 +1,52 @@
+.createForm {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+/* .nc_form {
+    background-color: green;
+} */
+
+.new_chapter {
+    color: green;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+#thumbnail {
+    text-align: center;
+}
+
+.comp_nc_text {
+    text-align: justify;
+    line-height: 150%;
+    color: #6f2a04;
+    /* margin: 1.5em 0em; */
+}
+
+.card_link {
+    color: #d46437;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.card_link:hover {
+    color: #ff8c52;
+}
+
+.fusion {
+    width: 50px;
+    background-color: transparent;
+    margin-top: -40px;
+}

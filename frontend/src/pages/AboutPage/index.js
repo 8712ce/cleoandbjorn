@@ -14,7 +14,7 @@ export default function AboutPage() {
 
             <img className="cozy" src={cozy} alt="Cleo drawing on her tablet and Bjorn reading her book" />
 
-            <h1>About</h1>
+            <h1 className="card_title">About</h1>
 
             <p className="about_text">MEDIUM | Graphic Novel</p>
 

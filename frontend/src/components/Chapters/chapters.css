@@ -1,22 +1,8 @@
-#chapters {
-    background-color: white;
-    border-radius: 5px;
-    margin: 3em 3em 5em 3em;
-    padding: 1em 0em 2em 0em;
-    text-align: center;
-}
-
-h1 {
-    background-color: transparent;
-    text-align: center;
-    color: #843409;
-}
-
 .comp_chapter_text {
     text-align: justify;
     line-height: 150%;
     color: #6f2a04;
-    margin: 1.5em 3em;
+    margin-bottom: 1.5em;
 }
 
 .center {
@@ -25,6 +11,18 @@ h1 {
 
 .light {
     color: #c7afa2
+}
+
+.card_link {
+    color: #d46437;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.card_link:hover {
+    color: #ff8c52;
 }
 
 /* .fusion {

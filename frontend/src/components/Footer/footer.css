@@ -1,20 +1,40 @@
 #footer {
     display: flex;
-    justify-content: space-between;
     margin-top: 3em;
 }
 
-#footer p {
+/* #footer p {
     align-self: flex-end;
     margin: 0 0;
-}
+} */
 
 .copilots {
     width: 70%;
-    /* float: right; */
+    /* height: 50%; */
+    align-self: flex-end;
+    float: right;
 }
 
-.copyright {
-    /* text-align: center; */
+.credits {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+}
+
+.credit_text {
+    text-align: center;
     color: #784311;
+    /* margin-bottom: 10px; */
+}
+
+.light {
+    color: #c7afa2
+}
+
+.small {
+    font-size: small;
 }

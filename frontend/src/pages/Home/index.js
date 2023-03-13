@@ -7,7 +7,6 @@ import Header from "../../components/Header";
 import About from "../../components/About";
 import Chapters from "../../components/Chapters";
 import Connect from "../../components/Connect";
-import Yawn from "../../components/Yawn";
 import Footer from "../../components/Footer";
 
 // IMAGES //
@@ -25,7 +24,7 @@ export default function Home() {
             <Header />
 
             <div>
-                <h1>Follow the Pixies into the Forest</h1>
+                <h1 className="page_title">Follow the Pixies into the Forest</h1>
 
                 <p className="important_text">"Our similarities are undeniable. We share a deep need for companionship, and crave the warmth and tenderness of love. It fills me with pride to acknowledge these fundamental human desires that we share."</p>
                 <p className="body_text credit">- Pappa</p>
@@ -36,8 +35,6 @@ export default function Home() {
             <Chapters />
 
             <Connect />
-
-            <Yawn />
             
             <Footer />
         </div>

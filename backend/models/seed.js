@@ -2,31 +2,31 @@ const db = require("./")
 
 const seed_chapters = [
     {
-        chapter: 1,
+        number: 1,
         title: "Drops"
     },
     {
-        chapter: 2,
+        number: 2,
         title: "The Painter and the Styrmann"
     },
     {
-        chapter: 3,
+        number: 3,
         title: "The Year Was 2096"
     },
     {
-        chapter: 4,
+        number: 4,
         title: "Clockwork"
     },
     {
-        chapter: 5,
+        number: 5,
         title: "Tele-Cares"
     },
     {
-        chapter: 6,
+        number: 6,
         title: "Rainbows & Lollipops"
     },
     {
-        chapter: 7,
+        number: 7,
         title: "Trashy YA Novel"
     }
 ]

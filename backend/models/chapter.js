@@ -5,7 +5,7 @@ const Schema = mongoose.Schema
 // CREATE A CHAPTER SCHEMA //
 const chapterSchema = new Schema (
     {
-        chapter: { type: Number, required: true },
+        number: { type: Number, required: true },
         title: { type: String, required: true },
         thumbnail: { type: String, required: true },
         images: {
