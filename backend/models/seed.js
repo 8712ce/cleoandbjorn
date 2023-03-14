@@ -3,7 +3,9 @@ const db = require("./")
 const seed_chapters = [
     {
         number: 1,
-        title: "Drops"
+        title: "Drops",
+        thumbnail: "",
+        images: ""
     },
     {
         number: 2,

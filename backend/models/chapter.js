@@ -8,10 +8,14 @@ const chapterSchema = new Schema (
         number: { type: Number, required: true },
         title: { type: String, required: true },
         thumbnail: { type: String, required: true },
-        images: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Image"
-        }
+        // images: {
+        //     type: mongoose.Schema.Types.ObjectId,
+        //     ref: "Image"
+        // }
+        images: [{
+            type: String,
+            required: true
+        }]
     }
 )
 

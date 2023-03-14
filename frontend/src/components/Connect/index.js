@@ -25,7 +25,7 @@ export default function Connect() {
 
             <a href="https://www.instagram.com/cleoandbjorn" target="_blank"><img className="social_media" src={insta} alt="Cleo's drawing of the Instagram logo" /></a>
 
-            <a href="https://www.twitter.com/cleoandbjorn" target="_blank"><img className="social_media" src={twitter} alt="Cleo's drawing of the Instagram logo" /></a>
+            {/* <a href="https://www.twitter.com/cleoandbjorn" target="_blank"><img className="social_media" src={twitter} alt="Cleo's drawing of the Instagram logo" /></a> */}
 
             <a href="https://www.webtoons.com/en/challenge/cleo-bjorn/list?title_no=698587&webtoon-platform-redirect=true" target="_blank"><img className="social_media" src={webToon} alt="Cleo's drawing of the WebToon logo" /></a>
 

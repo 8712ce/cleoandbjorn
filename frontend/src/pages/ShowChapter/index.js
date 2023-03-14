@@ -9,13 +9,20 @@ import EditChapter from "../../components/EditChapter";
 // STYLES //
 import "./showChapter.css";
 
-export default function ShowChapter() {
+export default function ShowChapter({ chapter }) {
     return (
         <div>
 
             <h1 className="page_title">Chapter {chapter.number}: {chapter.title}</h1>
 
-            <img src={chapter.images}/>
+            {/* <img src={chapter.images}/> */}
+
+            {chapter.images.map((imageURL, index) => (
+                <img key={index} src={imageURL} alt={`Image ${index + 1}`} />
+            ))}
+
+
+
 
             <Link className="card_link" to="/chaptersPage">Return to Chapters List</Link>
 
